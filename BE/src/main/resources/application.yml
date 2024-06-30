@@ -1,1 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/futureGrown
+    username: admin
+    password: LapZa1150#
+  docker:
+    compose:
+      lifecycle-management: start-only
 
+server:
+  servlet:
+    context-path: /api
